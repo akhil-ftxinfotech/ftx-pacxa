@@ -3,8 +3,8 @@ sudo: false
 language: php
 
 php:
-  - '7.2'
-  - '7.3'
+#  - '7.2'
+#  - '7.3'
   - '7.4'
 
 services:
@@ -20,7 +20,8 @@ before_script:
   - composer self-update
 
 script:
-  - cd src && composer install -o --prefer-dist --no-interaction
+#  - cd src && composer install -o --prefer-dist --no-interaction
+   - cd src && composer install
 
 after_script:
   - docker-compose down
