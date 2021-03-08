@@ -1,0 +1,16 @@
+{
+    "name": "akhil-ftxinfotech/wp-bootstrap-starter-child",
+    "description": "This is the child theme.",
+    "keywords": ["wordpress", "theme"],
+    "homepage": "https://github.com/akhil-ftxinfotech/wp-bootstrap-starter-child",
+    "authors": [
+      {
+        "name": "Ftx Infotech",
+        "homepage": "https://ftxinfotech.com"
+      }
+    ],
+    "type": "wordpress-theme",
+    "require": {
+      "php": ">=5.6"
+    }
+  }
