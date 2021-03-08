@@ -16,6 +16,9 @@ services:
       - wordpress
     restart: always
 
+  node:
+    image: node
+    
   mysql:
     image: mariadb
     container_name: ${APP_NAME}-mysql
