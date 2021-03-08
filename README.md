@@ -302,4 +302,7 @@ docker-compose up -d --force-recreate --build
 #### 2019-08-02
 - Added Linux support. Thanks to [@faysal-ishtiaq](https://github.com/faysal-ishtiaq).
 
+#### RUN THE CSS
+- npx mix
+
 </details>
